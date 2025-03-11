@@ -1,0 +1,6 @@
+framework module Pods_xcode_issue {
+  umbrella header "Pods-xcode_issue-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8EACE6592D8008CE008F82D8 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 8EACE6582D8008CE008F82D8 /* Reusable */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8EACE60B2D8006CF008F82D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EACE6592D8008CE008F82D8 /* Reusable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = xcode_issue;
 			packageProductDependencies = (
+				8EACE6582D8008CE008F82D8 /* Reusable */,
 			);
 			productName = xcode_issue;
 			productReference = 8EACE5F42D8006CD008F82D8 /* xcode_issue.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 8EACE5EB2D8006CD008F82D8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8EACE6572D8008CE008F82D8 /* XCRemoteSwiftPackageReference "Reusable" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8EACE5F52D8006CD008F82D8 /* Products */;
 			projectDirPath = "";
@@ -569,6 +578,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EACE6572D8008CE008F82D8 /* XCRemoteSwiftPackageReference "Reusable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/Reusable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8EACE6582D8008CE008F82D8 /* Reusable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EACE6572D8008CE008F82D8 /* XCRemoteSwiftPackageReference "Reusable" */;
+			productName = Reusable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8EACE5EC2D8006CD008F82D8 /* Project object */;
 }

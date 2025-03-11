@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5439B3C91592C0EB0C2C42BB /* Pods_xcode_issue_xcode_issueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A626F6FA42049226BE5641 /* Pods_xcode_issue_xcode_issueUITests.framework */; };
 		8EACE6592D8008CE008F82D8 /* Reusable in Frameworks */ = {isa = PBXBuildFile; productRef = 8EACE6582D8008CE008F82D8 /* Reusable */; };
 		9765BBBAEAD3A589FFE2004D /* Pods_xcode_issueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10776F4333FAA15775970922 /* Pods_xcode_issueTests.framework */; };
+		DDD652617C45BC43680A0B99 /* Pods_xcode_issue_xcode_issueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46CABD5AAAA84A7B2725D73 /* Pods_xcode_issue_xcode_issueUITests.framework */; };
 		E3F8CEF7FBE9A45AF885C8A4 /* Pods_xcode_issue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BB15E223F720F48020C386 /* Pods_xcode_issue.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		10776F4333FAA15775970922 /* Pods_xcode_issueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xcode_issueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67A626F6FA42049226BE5641 /* Pods_xcode_issue_xcode_issueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xcode_issue_xcode_issueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF8A34CD73626448D040DEC /* Pods-xcode_issueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issueUITests.debug.xcconfig"; path = "Target Support Files/Pods-xcode_issueUITests/Pods-xcode_issueUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F797045585BB94CA80F4080 /* Pods-xcode_issue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issue.release.xcconfig"; path = "Target Support Files/Pods-xcode_issue/Pods-xcode_issue.release.xcconfig"; sourceTree = "<group>"; };
 		73632A2C989D239867EE6609 /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issue-xcode_issueUITests.release.xcconfig"; path = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests.release.xcconfig"; sourceTree = "<group>"; };
 		82BB15E223F720F48020C386 /* Pods_xcode_issue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xcode_issue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,7 +40,9 @@
 		8EACE60A2D8006CF008F82D8 /* xcode_issueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcode_issueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EACE6142D8006CF008F82D8 /* xcode_issueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcode_issueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FB407D7407302F8F7ADE95 /* Pods-xcode_issueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issueTests.release.xcconfig"; path = "Target Support Files/Pods-xcode_issueTests/Pods-xcode_issueTests.release.xcconfig"; sourceTree = "<group>"; };
+		D46CABD5AAAA84A7B2725D73 /* Pods_xcode_issue_xcode_issueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xcode_issue_xcode_issueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D812A4D1EE2E132457F6F37C /* Pods-xcode_issue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issue.debug.xcconfig"; path = "Target Support Files/Pods-xcode_issue/Pods-xcode_issue.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9B709899F195D96E441643 /* Pods-xcode_issueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issueUITests.release.xcconfig"; path = "Target Support Files/Pods-xcode_issueUITests/Pods-xcode_issueUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F5B5375B504AD865C17C74FD /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issue-xcode_issueUITests.debug.xcconfig"; path = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F9BCEF3E7EC28198647A13 /* Pods-xcode_issueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xcode_issueTests.debug.xcconfig"; path = "Target Support Files/Pods-xcode_issueTests/Pods-xcode_issueTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,15 +68,11 @@
 		};
 		8EACE60D2D8006CF008F82D8 /* xcode_issueTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = xcode_issueTests;
 			sourceTree = "<group>";
 		};
 		8EACE6172D8006CF008F82D8 /* xcode_issueUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = xcode_issueUITests;
 			sourceTree = "<group>";
 		};
@@ -102,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5439B3C91592C0EB0C2C42BB /* Pods_xcode_issue_xcode_issueUITests.framework in Frameworks */,
+				DDD652617C45BC43680A0B99 /* Pods_xcode_issue_xcode_issueUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				82BB15E223F720F48020C386 /* Pods_xcode_issue.framework */,
-				67A626F6FA42049226BE5641 /* Pods_xcode_issue_xcode_issueUITests.framework */,
 				10776F4333FAA15775970922 /* Pods_xcode_issueTests.framework */,
+				D46CABD5AAAA84A7B2725D73 /* Pods_xcode_issue_xcode_issueUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,8 +148,9 @@
 				73632A2C989D239867EE6609 /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */,
 				F6F9BCEF3E7EC28198647A13 /* Pods-xcode_issueTests.debug.xcconfig */,
 				A8FB407D7407302F8F7ADE95 /* Pods-xcode_issueTests.release.xcconfig */,
+				6DF8A34CD73626448D040DEC /* Pods-xcode_issueUITests.debug.xcconfig */,
+				DE9B709899F195D96E441643 /* Pods-xcode_issueUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -166,6 +165,8 @@
 				8EACE5F02D8006CD008F82D8 /* Sources */,
 				8EACE5F12D8006CD008F82D8 /* Frameworks */,
 				8EACE5F22D8006CD008F82D8 /* Resources */,
+				279EC6221A99E4454AFF9F29 /* [CP] Embed Pods Frameworks */,
+				BA24F5F90578C9F43C958304 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +213,8 @@
 				8EACE6102D8006CF008F82D8 /* Sources */,
 				8EACE6112D8006CF008F82D8 /* Frameworks */,
 				8EACE6122D8006CF008F82D8 /* Resources */,
+				5617658B4CC0A5832A9B3C5D /* [CP] Embed Pods Frameworks */,
+				7ABEE856C2C8DF04993F40BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,6 +323,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		279EC6221A99E4454AFF9F29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue/Pods-xcode_issue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue/Pods-xcode_issue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xcode_issue/Pods-xcode_issue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5617658B4CC0A5832A9B3C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		701EF3ACD7D8388E9CD0ACBF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +377,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABEE856C2C8DF04993F40BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA24F5F90578C9F43C958304 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue/Pods-xcode_issue-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xcode_issue/Pods-xcode_issue-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xcode_issue/Pods-xcode_issue-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7E8EC97FD8CEFAF057C3C53 /* [CP] Check Pods Manifest.lock */ = {
@@ -413,6 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MSHB594PWA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xcode_issue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -443,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MSHB594PWA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = xcode_issue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -6,61 +6,137 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 79600F7D3A8048BD01C11891E77496FC /* Build configuration list for PBXAggregateTarget "TwitterKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0CF7C36E3EC5E44F2D202ABEED3C943C /* PBXTargetDependency */,
+			);
+			name = TwitterKit;
+		};
+		D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 088D916CD38469D68EFAF9F15E7D325F /* Build configuration list for PBXAggregateTarget "TwitterCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TwitterCore;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		08208CDA948EB9D81E6D3F26F3EF858A /* Pods-xcode_issue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C9D458036F3D5FB133F4D05C38531A /* Pods-xcode_issue-dummy.m */; };
+		15A213E608ADD3E1DACA73332219EE49 /* Pods-xcode_issue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38927073513B4160888EA38D96709895 /* Pods-xcode_issue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		292EF3B0B5629D98F84A3798735D23F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		3A11D87A0D1669609F5B4A7E00D8A3A4 /* Pods-xcode_issueTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13C9953AFFE280DB6FD0062F7DCEA /* Pods-xcode_issueTests-dummy.m */; };
-		59E82186713254280838FA903BAEAA34 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53766E300429F0633D28B3294A8CF0A5 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A055ED553F41E28ED8208AB421A90C /* Pods-xcode_issue-xcode_issueUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49F4EBE0A8E31590C2B6AD0AC9EB4BB /* Pods-xcode_issue-xcode_issueUITests-dummy.m */; };
-		AFDFEE70C70285B8EC1BC1D72C5ACBD3 /* Pods-xcode_issue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F78D3EC9EB5D78210EA77C2343493A /* Pods-xcode_issue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8509F08F2A2AD674FD00235D2C85E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		D9A7DF3B22160E8FC4ACC591C763FF60 /* Pods-xcode_issueTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2161A5B7A0AA3D2A43B45589B628E415 /* Pods-xcode_issueTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED8F92105B538CD87BE8B6A03F5E7657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		3A11D87A0D1669609F5B4A7E00D8A3A4 /* Pods-xcode_issueTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8077793EE578F70284413789DBFE744 /* Pods-xcode_issueTests-dummy.m */; };
+		4C768F5C3DFF39C9D000DE6073EC4B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		8C5C806E6D08651C043E3167BA080F9A /* Pods-xcode_issue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BAAB7793DFDDE46E1F770E4869D80 /* Pods-xcode_issue-dummy.m */; };
+		BCC9BC72209053567C980D1DD43AB254 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9977CF66A4E17047872A86FCFA98785 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09F49B09E35D50D549A13393386BA57 /* Pods-xcode_issue-xcode_issueUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E4B226286420B9B228C2C9EFEA3252 /* Pods-xcode_issue-xcode_issueUITests-dummy.m */; };
+		D9A7DF3B22160E8FC4ACC591C763FF60 /* Pods-xcode_issueTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC7415B077EF199038B0D21B54DEB34 /* Pods-xcode_issueTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2996055952554AC0A29EC2BDE68281F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4AB4E6E83636EBEA7918D12C50C19DA1 /* PBXContainerItemProxy */ = {
+		165AF57287609EC18E470FE31AA6F0D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
+		};
+		29D3EB7F2B357475F1E667C6995B860C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
+		};
+		4683D6CF7518B3BE50057065FBFF97F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3B8562A4F2167372F518CF1E7D325E28;
 			remoteInfo = "Pods-xcode_issue";
 		};
+		5E100407E49DA7E0CE6D0E349E1DACFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60766D2DF87D6EAD1E04F386DA8986E;
+			remoteInfo = TwitterKit;
+		};
+		B09759FA394CE612F28F7AB1A4C61F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D98A3F1DDB5986495AF1DD067F7C78;
+			remoteInfo = TwitterCore;
+		};
+		B6183D95B94D88C66D269000CE586264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60766D2DF87D6EAD1E04F386DA8986E;
+			remoteInfo = TwitterKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009CF8C54D2AC24A4069C8EEED7B99C1 /* Pods-xcode_issue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-acknowledgements.plist"; sourceTree = "<group>"; };
-		0104E95FE76D0291165320C69C5D7A17 /* Pods-xcode_issue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue.release.xcconfig"; sourceTree = "<group>"; };
-		028B7BB418883D6C0488327AA8B999D4 /* Pods-xcode_issue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue.debug.xcconfig"; sourceTree = "<group>"; };
-		06193F03DA31BA70BBF2C24A26DA7DB1 /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-xcode_issueUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		169D4DBD37CBA70A103AD4DBCB9D4408 /* Pods-xcode_issue-xcode_issueUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-xcode_issueUITests-Info.plist"; sourceTree = "<group>"; };
-		1C3BB2310899E3193DF6D38F06CF5451 /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue-xcode_issueUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2161A5B7A0AA3D2A43B45589B628E415 /* Pods-xcode_issueTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xcode_issueTests-umbrella.h"; sourceTree = "<group>"; };
+		04E51633FB2E740AD98FE6788721631F /* Pods-xcode_issue-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xcode_issue-resources.sh"; sourceTree = "<group>"; };
+		07F175CC6CBDCE4A10F5C0A8BE46ECC0 /* Pods-xcode_issue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue.debug.xcconfig"; sourceTree = "<group>"; };
+		0FEF5B58DA7456D7610C006312A5B234 /* Pods-xcode_issue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-acknowledgements.plist"; sourceTree = "<group>"; };
+		12112441E24038472A39EADA912EB2BD /* Pods-xcode_issue-xcode_issueUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xcode_issue-xcode_issueUITests-frameworks.sh"; sourceTree = "<group>"; };
+		13F2579776284EF1876F2D3228D35DB5 /* Pods-xcode_issueTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xcode_issueTests.modulemap"; sourceTree = "<group>"; };
+		1AC9EB28A1A6A9DD3277A10CC41758D2 /* Pods-xcode_issue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue.release.xcconfig"; sourceTree = "<group>"; };
+		1FF65176D58477BD7ED89851A37A0970 /* Pods-xcode_issue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xcode_issue-acknowledgements.markdown"; sourceTree = "<group>"; };
 		293BE80E9B24CA4058A255FEFA6FFDC1 /* Pods-xcode_issue */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-xcode_issue"; path = Pods_xcode_issue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BE062750BE5754A65E7A65887BE9FCD /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue-xcode_issueUITests.release.xcconfig"; sourceTree = "<group>"; };
-		36E25BEAD4D58CE1FBC13D63833E3966 /* Pods-xcode_issue-xcode_issueUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xcode_issue-xcode_issueUITests.modulemap"; sourceTree = "<group>"; };
+		2DC7415B077EF199038B0D21B54DEB34 /* Pods-xcode_issueTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xcode_issueTests-umbrella.h"; sourceTree = "<group>"; };
+		320BAAB7793DFDDE46E1F770E4869D80 /* Pods-xcode_issue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xcode_issue-dummy.m"; sourceTree = "<group>"; };
+		35077355555B9D80D594AC0F034EEDFF /* TwitterCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.debug.xcconfig; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38927073513B4160888EA38D96709895 /* Pods-xcode_issue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xcode_issue-umbrella.h"; sourceTree = "<group>"; };
 		38CE334950F138FF2CA37E671C32F58F /* Pods-xcode_issueTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-xcode_issueTests"; path = Pods_xcode_issueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41892765D111851A70BB0EB45ABD49BB /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xcode_issue-xcode_issueUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		51F78D3EC9EB5D78210EA77C2343493A /* Pods-xcode_issue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xcode_issue-umbrella.h"; sourceTree = "<group>"; };
-		53766E300429F0633D28B3294A8CF0A5 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xcode_issue-xcode_issueUITests-umbrella.h"; sourceTree = "<group>"; };
-		61F13C9953AFFE280DB6FD0062F7DCEA /* Pods-xcode_issueTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xcode_issueTests-dummy.m"; sourceTree = "<group>"; };
-		66CBB48DCB18ADF594682331ED9BD8E4 /* Pods-xcode_issue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xcode_issue-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F0A9BDE7D427780ACFA74D2ED284A92 /* Pods-xcode_issue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-Info.plist"; sourceTree = "<group>"; };
-		82C24498784F84A33746B52328650D98 /* Pods-xcode_issueTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issueTests-Info.plist"; sourceTree = "<group>"; };
+		43E4B226286420B9B228C2C9EFEA3252 /* Pods-xcode_issue-xcode_issueUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xcode_issue-xcode_issueUITests-dummy.m"; sourceTree = "<group>"; };
+		4AF8DD934C01C40434609E5E785A7E88 /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xcode_issue-xcode_issueUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CD99F339F865547688A62270EEE6998 /* Pods-xcode_issueTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xcode_issueTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E9AFBAE9C3C602B49F60CD5B455D93A /* Pods-xcode_issue-xcode_issueUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xcode_issue-xcode_issueUITests.modulemap"; sourceTree = "<group>"; };
+		52955504313643B5FDBE50BBE53EC3CE /* Pods-xcode_issue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xcode_issue.modulemap"; sourceTree = "<group>"; };
+		52C448A04CB1CABC6B0FFD15785B6C82 /* Pods-xcode_issueTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issueTests-Info.plist"; sourceTree = "<group>"; };
+		739E5D63C86B8639A7EBC0E56099918A /* Pods-xcode_issueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85B99F49C72E13E6DA99E225E9D5808F /* Pods-xcode_issueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issueTests.release.xcconfig"; sourceTree = "<group>"; };
+		862317A824437FC6BACD0073D656FA6B /* TwitterKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit.debug.xcconfig; sourceTree = "<group>"; };
 		8813AA664861C8E418C67A1B986C1833 /* Pods-xcode_issue-xcode_issueUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-xcode_issue-xcode_issueUITests"; path = Pods_xcode_issue_xcode_issueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C35D431B55D163E2E61EBCEA21B55C2 /* Pods-xcode_issueTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issueTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B3717E3646BBA5BC2779D50C792B7AE /* Pods-xcode_issue-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xcode_issue-frameworks.sh"; sourceTree = "<group>"; };
+		9BF2ACDC53881DA5149056F1A7407D23 /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue-xcode_issueUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0C9D458036F3D5FB133F4D05C38531A /* Pods-xcode_issue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xcode_issue-dummy.m"; sourceTree = "<group>"; };
-		A3CF64198711FD734B9D176C82358281 /* Pods-xcode_issueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issueTests.release.xcconfig"; sourceTree = "<group>"; };
-		B49F4EBE0A8E31590C2B6AD0AC9EB4BB /* Pods-xcode_issue-xcode_issueUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xcode_issue-xcode_issueUITests-dummy.m"; sourceTree = "<group>"; };
-		B7EF4981447457F8A8479D300B541215 /* Pods-xcode_issueTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xcode_issueTests.modulemap"; sourceTree = "<group>"; };
-		C10D257EF70FA660F662928881B14702 /* Pods-xcode_issueTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issueTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D45220ABCF49BB8EBA36ECF8DB4C15AE /* Pods-xcode_issue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-xcode_issue.modulemap"; sourceTree = "<group>"; };
-		DDC9A28808E9903A0435ABB921AB9B4C /* Pods-xcode_issueTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-xcode_issueTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E27D43D30EE048D31B3CD1D054355CFE /* Pods-xcode_issueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC22065CAE37520BDF2CEF43A54A49B /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-xcode_issueUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB085446665F2AAFB3EABFA28DA69407 /* TwitterKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterKit.release.xcconfig; sourceTree = "<group>"; };
+		AF18A4B1BC6D3FDBC541CFF6A175EADD /* TwitterCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterCore.release.xcconfig; sourceTree = "<group>"; };
+		B3F7BD26766F4780CB8F68BC5304F80A /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-xcode_issue-xcode_issueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B647CDF4BE055B1E0265E75717669A56 /* Pods-xcode_issue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-Info.plist"; sourceTree = "<group>"; };
+		BC2F33E9ED1F9E848CF29CD00CB148C0 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		D0C5E5A2C72A2EFABD2968A7338744C2 /* Pods-xcode_issue-xcode_issueUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-xcode_issue-xcode_issueUITests-Info.plist"; sourceTree = "<group>"; };
+		D57A4CD74CC4447508A0A83D51CA3532 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		E9977CF66A4E17047872A86FCFA98785 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-xcode_issue-xcode_issueUITests-umbrella.h"; sourceTree = "<group>"; };
+		F051A3C52DAB4346C97E4255E1DA8681 /* Pods-xcode_issue-xcode_issueUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-xcode_issue-xcode_issueUITests-resources.sh"; sourceTree = "<group>"; };
+		F8077793EE578F70284413789DBFE744 /* Pods-xcode_issueTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-xcode_issueTests-dummy.m"; sourceTree = "<group>"; };
+		FD4516ABF846FD433C51230A10932198 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6EA501116183301A4216B43935CDEEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C768F5C3DFF39C9D000DE6073EC4B48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79F7AAB1643A877FB105ABE567D3BA1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,39 +145,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C54FBF334E6BA8A8E8BB9C481BE439 /* Frameworks */ = {
+		85AD4AD7A2E4F34A7DB4E9CFDC495B47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8509F08F2A2AD674FD00235D2C85E02 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B2D3F6CF4C4472993C8A6A239AB9E19 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED8F92105B538CD87BE8B6A03F5E7657 /* Foundation.framework in Frameworks */,
+				E2996055952554AC0A29EC2BDE68281F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2ED03996B3CDEA90A86B1C47BC45AF4E /* Pods-xcode_issueTests */ = {
+		00FBD647166CBFED4B42D495C31824ED /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7EF4981447457F8A8479D300B541215 /* Pods-xcode_issueTests.modulemap */,
-				DDC9A28808E9903A0435ABB921AB9B4C /* Pods-xcode_issueTests-acknowledgements.markdown */,
-				C10D257EF70FA660F662928881B14702 /* Pods-xcode_issueTests-acknowledgements.plist */,
-				61F13C9953AFFE280DB6FD0062F7DCEA /* Pods-xcode_issueTests-dummy.m */,
-				82C24498784F84A33746B52328650D98 /* Pods-xcode_issueTests-Info.plist */,
-				2161A5B7A0AA3D2A43B45589B628E415 /* Pods-xcode_issueTests-umbrella.h */,
-				E27D43D30EE048D31B3CD1D054355CFE /* Pods-xcode_issueTests.debug.xcconfig */,
-				A3CF64198711FD734B9D176C82358281 /* Pods-xcode_issueTests.release.xcconfig */,
+				E444FAB8C3D42906EFB066BCD6888316 /* Pods-xcode_issue */,
+				5CA55FDC47AA7B527CE9E0003E446F84 /* Pods-xcode_issue-xcode_issueUITests */,
+				E806F3D6CE659FE009DB460190A24686 /* Pods-xcode_issueTests */,
 			);
-			name = "Pods-xcode_issueTests";
-			path = "Target Support Files/Pods-xcode_issueTests";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1A9A014ADD59869FD693E50EF3005C3F /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				C9F4929E83F5D3F21D536BFA1DA1840C /* Frameworks */,
+				D49CB7841FEFA43F14457092FFCA4B0D /* Support Files */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		1BAAD8FF8A83458B37AFA6B5FF33C939 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF7BE7D635593FD6EBBD935153C451 /* Frameworks */,
+				5935329713D221B3E8DB2CE62D8A0CEC /* Resources */,
+				37AEA1D32DADD7EDC88C3E43D5049611 /* Support Files */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		37AEA1D32DADD7EDC88C3E43D5049611 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				862317A824437FC6BACD0073D656FA6B /* TwitterKit.debug.xcconfig */,
+				AB085446665F2AAFB3EABFA28DA69407 /* TwitterKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwitterKit";
+			sourceTree = "<group>";
+		};
+		4ABF7BE7D635593FD6EBBD935153C451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F33E9ED1F9E848CF29CD00CB148C0 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5935329713D221B3E8DB2CE62D8A0CEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57A4CD74CC4447508A0A83D51CA3532 /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CA55FDC47AA7B527CE9E0003E446F84 /* Pods-xcode_issue-xcode_issueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E9AFBAE9C3C602B49F60CD5B455D93A /* Pods-xcode_issue-xcode_issueUITests.modulemap */,
+				4AF8DD934C01C40434609E5E785A7E88 /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.markdown */,
+				9EC22065CAE37520BDF2CEF43A54A49B /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.plist */,
+				43E4B226286420B9B228C2C9EFEA3252 /* Pods-xcode_issue-xcode_issueUITests-dummy.m */,
+				12112441E24038472A39EADA912EB2BD /* Pods-xcode_issue-xcode_issueUITests-frameworks.sh */,
+				D0C5E5A2C72A2EFABD2968A7338744C2 /* Pods-xcode_issue-xcode_issueUITests-Info.plist */,
+				F051A3C52DAB4346C97E4255E1DA8681 /* Pods-xcode_issue-xcode_issueUITests-resources.sh */,
+				E9977CF66A4E17047872A86FCFA98785 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h */,
+				B3F7BD26766F4780CB8F68BC5304F80A /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */,
+				9BF2ACDC53881DA5149056F1A7407D23 /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */,
+			);
+			name = "Pods-xcode_issue-xcode_issueUITests";
+			path = "Target Support Files/Pods-xcode_issue-xcode_issueUITests";
 			sourceTree = "<group>";
 		};
 		7E92EFD69127F72274105B1DCEC941D0 /* Products */ = {
@@ -114,20 +241,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C75EC6F5FA438FEB5C3513C71D6F87B6 /* Pods-xcode_issue */ = {
+		854EBAE85E1D39CA423AEB219B78013C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D45220ABCF49BB8EBA36ECF8DB4C15AE /* Pods-xcode_issue.modulemap */,
-				66CBB48DCB18ADF594682331ED9BD8E4 /* Pods-xcode_issue-acknowledgements.markdown */,
-				009CF8C54D2AC24A4069C8EEED7B99C1 /* Pods-xcode_issue-acknowledgements.plist */,
-				A0C9D458036F3D5FB133F4D05C38531A /* Pods-xcode_issue-dummy.m */,
-				7F0A9BDE7D427780ACFA74D2ED284A92 /* Pods-xcode_issue-Info.plist */,
-				51F78D3EC9EB5D78210EA77C2343493A /* Pods-xcode_issue-umbrella.h */,
-				028B7BB418883D6C0488327AA8B999D4 /* Pods-xcode_issue.debug.xcconfig */,
-				0104E95FE76D0291165320C69C5D7A17 /* Pods-xcode_issue.release.xcconfig */,
+				1A9A014ADD59869FD693E50EF3005C3F /* TwitterCore */,
+				1BAAD8FF8A83458B37AFA6B5FF33C939 /* TwitterKit */,
 			);
-			name = "Pods-xcode_issue";
-			path = "Target Support Files/Pods-xcode_issue";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9F4929E83F5D3F21D536BFA1DA1840C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD4516ABF846FD433C51230A10932198 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -135,19 +263,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				854EBAE85E1D39CA423AEB219B78013C /* Pods */,
 				7E92EFD69127F72274105B1DCEC941D0 /* Products */,
-				D0329BB01DE787110AC14DEA15A54EE2 /* Targets Support Files */,
+				00FBD647166CBFED4B42D495C31824ED /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0329BB01DE787110AC14DEA15A54EE2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C75EC6F5FA438FEB5C3513C71D6F87B6 /* Pods-xcode_issue */,
-				D3332A2B13761B5D649D84383BCE7A7D /* Pods-xcode_issue-xcode_issueUITests */,
-				2ED03996B3CDEA90A86B1C47BC45AF4E /* Pods-xcode_issueTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -158,20 +277,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D3332A2B13761B5D649D84383BCE7A7D /* Pods-xcode_issue-xcode_issueUITests */ = {
+		D49CB7841FEFA43F14457092FFCA4B0D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				36E25BEAD4D58CE1FBC13D63833E3966 /* Pods-xcode_issue-xcode_issueUITests.modulemap */,
-				41892765D111851A70BB0EB45ABD49BB /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.markdown */,
-				06193F03DA31BA70BBF2C24A26DA7DB1 /* Pods-xcode_issue-xcode_issueUITests-acknowledgements.plist */,
-				B49F4EBE0A8E31590C2B6AD0AC9EB4BB /* Pods-xcode_issue-xcode_issueUITests-dummy.m */,
-				169D4DBD37CBA70A103AD4DBCB9D4408 /* Pods-xcode_issue-xcode_issueUITests-Info.plist */,
-				53766E300429F0633D28B3294A8CF0A5 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h */,
-				1C3BB2310899E3193DF6D38F06CF5451 /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */,
-				2BE062750BE5754A65E7A65887BE9FCD /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */,
+				35077355555B9D80D594AC0F034EEDFF /* TwitterCore.debug.xcconfig */,
+				AF18A4B1BC6D3FDBC541CFF6A175EADD /* TwitterCore.release.xcconfig */,
 			);
-			name = "Pods-xcode_issue-xcode_issueUITests";
-			path = "Target Support Files/Pods-xcode_issue-xcode_issueUITests";
+			name = "Support Files";
+			path = "../Target Support Files/TwitterCore";
+			sourceTree = "<group>";
+		};
+		E444FAB8C3D42906EFB066BCD6888316 /* Pods-xcode_issue */ = {
+			isa = PBXGroup;
+			children = (
+				52955504313643B5FDBE50BBE53EC3CE /* Pods-xcode_issue.modulemap */,
+				1FF65176D58477BD7ED89851A37A0970 /* Pods-xcode_issue-acknowledgements.markdown */,
+				0FEF5B58DA7456D7610C006312A5B234 /* Pods-xcode_issue-acknowledgements.plist */,
+				320BAAB7793DFDDE46E1F770E4869D80 /* Pods-xcode_issue-dummy.m */,
+				9B3717E3646BBA5BC2779D50C792B7AE /* Pods-xcode_issue-frameworks.sh */,
+				B647CDF4BE055B1E0265E75717669A56 /* Pods-xcode_issue-Info.plist */,
+				04E51633FB2E740AD98FE6788721631F /* Pods-xcode_issue-resources.sh */,
+				38927073513B4160888EA38D96709895 /* Pods-xcode_issue-umbrella.h */,
+				07F175CC6CBDCE4A10F5C0A8BE46ECC0 /* Pods-xcode_issue.debug.xcconfig */,
+				1AC9EB28A1A6A9DD3277A10CC41758D2 /* Pods-xcode_issue.release.xcconfig */,
+			);
+			name = "Pods-xcode_issue";
+			path = "Target Support Files/Pods-xcode_issue";
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -182,25 +313,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E806F3D6CE659FE009DB460190A24686 /* Pods-xcode_issueTests */ = {
+			isa = PBXGroup;
+			children = (
+				13F2579776284EF1876F2D3228D35DB5 /* Pods-xcode_issueTests.modulemap */,
+				4CD99F339F865547688A62270EEE6998 /* Pods-xcode_issueTests-acknowledgements.markdown */,
+				8C35D431B55D163E2E61EBCEA21B55C2 /* Pods-xcode_issueTests-acknowledgements.plist */,
+				F8077793EE578F70284413789DBFE744 /* Pods-xcode_issueTests-dummy.m */,
+				52C448A04CB1CABC6B0FFD15785B6C82 /* Pods-xcode_issueTests-Info.plist */,
+				2DC7415B077EF199038B0D21B54DEB34 /* Pods-xcode_issueTests-umbrella.h */,
+				739E5D63C86B8639A7EBC0E56099918A /* Pods-xcode_issueTests.debug.xcconfig */,
+				85B99F49C72E13E6DA99E225E9D5808F /* Pods-xcode_issueTests.release.xcconfig */,
+			);
+			name = "Pods-xcode_issueTests";
+			path = "Target Support Files/Pods-xcode_issueTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5995EC7593D4F60C2BA2FF1282F07F8E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59E82186713254280838FA903BAEAA34 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B04A4A67B657266269DC1C06CC73B8A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFDFEE70C70285B8EC1BC1D72C5ACBD3 /* Pods-xcode_issue-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A0236FA34A086215217E973CB5AEBD78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,21 +340,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C022964FB8623557F40A69DF52238538 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A213E608ADD3E1DACA73332219EE49 /* Pods-xcode_issue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A11B55DB87E6795EAC059E56663775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC9BC72209053567C980D1DD43AB254 /* Pods-xcode_issue-xcode_issueUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1FDD7549E8C86BBBEB116771DCDC3F90 /* Pods-xcode_issue-xcode_issueUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88D9888CBC760FA9FC39E6B7F593A98F /* Build configuration list for PBXNativeTarget "Pods-xcode_issue-xcode_issueUITests" */;
+			buildConfigurationList = 7102B49E258EFC0A826A0EA260ED77C6 /* Build configuration list for PBXNativeTarget "Pods-xcode_issue-xcode_issueUITests" */;
 			buildPhases = (
-				5995EC7593D4F60C2BA2FF1282F07F8E /* Headers */,
-				12AAB2244E7C71C9D609983F33B23C6D /* Sources */,
-				83C54FBF334E6BA8A8E8BB9C481BE439 /* Frameworks */,
-				CFAE3DE519F6FFD53EC7C6CCDCDBCDCD /* Resources */,
+				C4A11B55DB87E6795EAC059E56663775 /* Headers */,
+				DB4A1211B2960213BBFDF162AB2B1E26 /* Sources */,
+				6EA501116183301A4216B43935CDEEB8 /* Frameworks */,
+				0EFB8C16F4C22FB5794963009EEE45C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				25D79020E36F9316C4773ECE6BD0474E /* PBXTargetDependency */,
+				AE4D3394711E86FF39D8D7312AD47650 /* PBXTargetDependency */,
 			);
 			name = "Pods-xcode_issue-xcode_issueUITests";
 			productName = Pods_xcode_issue_xcode_issueUITests;
@@ -232,16 +381,18 @@
 		};
 		3B8562A4F2167372F518CF1E7D325E28 /* Pods-xcode_issue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A81F25BFE3DC78A658D8AAB776B1D82 /* Build configuration list for PBXNativeTarget "Pods-xcode_issue" */;
+			buildConfigurationList = AD26963FCDB7F2E9FECA8D7F3C36E043 /* Build configuration list for PBXNativeTarget "Pods-xcode_issue" */;
 			buildPhases = (
-				6B04A4A67B657266269DC1C06CC73B8A /* Headers */,
-				260F378006B8EA5A9E80B397F13FC8EB /* Sources */,
-				9B2D3F6CF4C4472993C8A6A239AB9E19 /* Frameworks */,
-				4A66C883859FE3E5E304987411A33925 /* Resources */,
+				C022964FB8623557F40A69DF52238538 /* Headers */,
+				50F76166B6C6B77BBC25C2BF9806E098 /* Sources */,
+				85AD4AD7A2E4F34A7DB4E9CFDC495B47 /* Frameworks */,
+				5521AB08AFF009EA17D766DE9E38B77A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6652FE1604D954924E69975B7306999B /* PBXTargetDependency */,
+				487BD7B62B67D76E65C4C7E10E2DAFEA /* PBXTargetDependency */,
 			);
 			name = "Pods-xcode_issue";
 			productName = Pods_xcode_issue;
@@ -260,7 +411,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2170C524042A0D0B0E35448A2511EE96 /* PBXTargetDependency */,
+				3095F49CB8AA3231D0DF959A354FACC7 /* PBXTargetDependency */,
 			);
 			name = "Pods-xcode_issueTests";
 			productName = Pods_xcode_issueTests;
@@ -294,11 +445,20 @@
 				3B8562A4F2167372F518CF1E7D325E28 /* Pods-xcode_issue */,
 				1FDD7549E8C86BBBEB116771DCDC3F90 /* Pods-xcode_issue-xcode_issueUITests */,
 				669323390074E96999747CEE883E74B5 /* Pods-xcode_issueTests */,
+				D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */,
+				B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0EFB8C16F4C22FB5794963009EEE45C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		121AA5B405FBF92A94AFD306806A131E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,14 +466,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A66C883859FE3E5E304987411A33925 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFAE3DE519F6FFD53EC7C6CCDCDBCDCD /* Resources */ = {
+		5521AB08AFF009EA17D766DE9E38B77A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,19 +476,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12AAB2244E7C71C9D609983F33B23C6D /* Sources */ = {
+		50F76166B6C6B77BBC25C2BF9806E098 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A055ED553F41E28ED8208AB421A90C /* Pods-xcode_issue-xcode_issueUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		260F378006B8EA5A9E80B397F13FC8EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08208CDA948EB9D81E6D3F26F3EF858A /* Pods-xcode_issue-dummy.m in Sources */,
+				8C5C806E6D08651C043E3167BA080F9A /* Pods-xcode_issue-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,21 +492,150 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB4A1211B2960213BBFDF162AB2B1E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09F49B09E35D50D549A13393386BA57 /* Pods-xcode_issue-xcode_issueUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2170C524042A0D0B0E35448A2511EE96 /* PBXTargetDependency */ = {
+		0CF7C36E3EC5E44F2D202ABEED3C943C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = 165AF57287609EC18E470FE31AA6F0D6 /* PBXContainerItemProxy */;
+		};
+		25D79020E36F9316C4773ECE6BD0474E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = B09759FA394CE612F28F7AB1A4C61F81 /* PBXContainerItemProxy */;
+		};
+		3095F49CB8AA3231D0DF959A354FACC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-xcode_issue";
 			target = 3B8562A4F2167372F518CF1E7D325E28 /* Pods-xcode_issue */;
-			targetProxy = 4AB4E6E83636EBEA7918D12C50C19DA1 /* PBXContainerItemProxy */;
+			targetProxy = 4683D6CF7518B3BE50057065FBFF97F2 /* PBXContainerItemProxy */;
+		};
+		487BD7B62B67D76E65C4C7E10E2DAFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterKit;
+			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
+			targetProxy = 5E100407E49DA7E0CE6D0E349E1DACFB /* PBXContainerItemProxy */;
+		};
+		6652FE1604D954924E69975B7306999B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterCore;
+			target = D0D98A3F1DDB5986495AF1DD067F7C78 /* TwitterCore */;
+			targetProxy = 29D3EB7F2B357475F1E667C6995B860C /* PBXContainerItemProxy */;
+		};
+		AE4D3394711E86FF39D8D7312AD47650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterKit;
+			target = B60766D2DF87D6EAD1E04F386DA8986E /* TwitterKit */;
+			targetProxy = B6183D95B94D88C66D269000CE586264 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		413DC6A84AD42623548E643DB5993F0B /* Debug */ = {
+		1BD516213A62EBA73FE1E101AA0D9DFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 028B7BB418883D6C0488327AA8B999D4 /* Pods-xcode_issue.debug.xcconfig */;
+			baseConfigurationReference = AF18A4B1BC6D3FDBC541CFF6A175EADD /* TwitterCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D46F573A3FBB4E7C06D61BE0D7C8953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F7BD26766F4780CB8F68BC5304F80A /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E3A65A99681D3185BE2D057D265DACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35077355555B9D80D594AC0F034EEDFF /* TwitterCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		610713267F3FA3087200B9F85FC68B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862317A824437FC6BACD0073D656FA6B /* TwitterKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7380E4B2483C1A9AD35EB724FB4CA819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F175CC6CBDCE4A10F5C0A8BE46ECC0 /* Pods-xcode_issue.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -464,46 +738,6 @@
 			};
 			name = Debug;
 		};
-		92DD87A604116BCA1794CA04F5CE8BD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BE062750BE5754A65E7A65887BE9FCD /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -566,9 +800,88 @@
 			};
 			name = Release;
 		};
-		A4DE322E786C4590AD1DB3303AF00770 /* Release */ = {
+		BC6286256E6094E64E23AFCDEACA300B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0104E95FE76D0291165320C69C5D7A17 /* Pods-xcode_issue.release.xcconfig */;
+			baseConfigurationReference = 739E5D63C86B8639A7EBC0E56099918A /* Pods-xcode_issueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-xcode_issueTests/Pods-xcode_issueTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xcode_issueTests/Pods-xcode_issueTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC8D851796CC4B5842675CDC436B536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF2ACDC53881DA5149056F1A7407D23 /* Pods-xcode_issue-xcode_issueUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCAB9CB106A73A2589D7057251DCEFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC9EB28A1A6A9DD3277A10CC41758D2 /* Pods-xcode_issue.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -606,87 +919,9 @@
 			};
 			name = Release;
 		};
-		B5D963A5C98CA876451BEE5C1E8A2860 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C3BB2310899E3193DF6D38F06CF5451 /* Pods-xcode_issue-xcode_issueUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-xcode_issue-xcode_issueUITests/Pods-xcode_issue-xcode_issueUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BC6286256E6094E64E23AFCDEACA300B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E27D43D30EE048D31B3CD1D054355CFE /* Pods-xcode_issueTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-xcode_issueTests/Pods-xcode_issueTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-xcode_issueTests/Pods-xcode_issueTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FF0B9C15CBC13A88BED4EC7044199A0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3CF64198711FD734B9D176C82358281 /* Pods-xcode_issueTests.release.xcconfig */;
+			baseConfigurationReference = 85B99F49C72E13E6DA99E225E9D5808F /* Pods-xcode_issueTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -724,9 +959,36 @@
 			};
 			name = Release;
 		};
+		FF62C4A9DFAA074154D1261A548CFC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB085446665F2AAFB3EABFA28DA69407 /* TwitterKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		088D916CD38469D68EFAF9F15E7D325F /* Build configuration list for PBXAggregateTarget "TwitterCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3A65A99681D3185BE2D057D265DACD /* Debug */,
+				1BD516213A62EBA73FE1E101AA0D9DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -736,20 +998,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88D9888CBC760FA9FC39E6B7F593A98F /* Build configuration list for PBXNativeTarget "Pods-xcode_issue-xcode_issueUITests" */ = {
+		7102B49E258EFC0A826A0EA260ED77C6 /* Build configuration list for PBXNativeTarget "Pods-xcode_issue-xcode_issueUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5D963A5C98CA876451BEE5C1E8A2860 /* Debug */,
-				92DD87A604116BCA1794CA04F5CE8BD6 /* Release */,
+				2D46F573A3FBB4E7C06D61BE0D7C8953 /* Debug */,
+				EC8D851796CC4B5842675CDC436B536A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A81F25BFE3DC78A658D8AAB776B1D82 /* Build configuration list for PBXNativeTarget "Pods-xcode_issue" */ = {
+		79600F7D3A8048BD01C11891E77496FC /* Build configuration list for PBXAggregateTarget "TwitterKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				413DC6A84AD42623548E643DB5993F0B /* Debug */,
-				A4DE322E786C4590AD1DB3303AF00770 /* Release */,
+				610713267F3FA3087200B9F85FC68B0E /* Debug */,
+				FF62C4A9DFAA074154D1261A548CFC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD26963FCDB7F2E9FECA8D7F3C36E043 /* Build configuration list for PBXNativeTarget "Pods-xcode_issue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7380E4B2483C1A9AD35EB724FB4CA819 /* Debug */,
+				FCAB9CB106A73A2589D7057251DCEFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

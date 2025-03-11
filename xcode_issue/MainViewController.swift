@@ -27,9 +27,23 @@ class MainViewController: UIViewController {
         $0.register(cellType: EmptyCell.self)
     }
     
+    private var animator: UIViewPropertyAnimator?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setupUI()
+        setupLayout()
+    }
+    
+    private func setupUI() {
+        view.addSubview(collectionView)
+    }
+    
+    private func setupLayout() {
+        collectionView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
     }
 
 }
@@ -46,6 +60,33 @@ extension MainViewController {
                 if result {
                     
                 }
+            }
+        }
+    }
+    
+    private func animatingCollection(index: Int) {
+        animator = .init(duration: 0.5, curve: .linear) { [weak self] in
+            guard let self = self else { return }
+            
+            // cell 너비가 화면 너비랑 같을때 애니메이션 시작시 이미지뷰 백화현상
+//            collectionView.scrollToItem(
+//                at: IndexPath(item: index, section: 0),
+//                at: .centeredHorizontally,
+//                animated: false
+//            )
+            
+            // 우회방법
+            collectionView.setContentOffset(
+                .init(x: CGFloat(index) * collectionView.bounds.width - 0.3, y: 0),
+                animated: false
+            )
+        }
+        
+        animator?.startAnimation()
+        
+        animator?.addCompletion { position in
+            if case .end = position {
+                
             }
         }
     }
